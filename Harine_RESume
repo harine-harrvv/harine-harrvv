@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>John Doe</h1>
+        <p>Software Engineer</p>
+        <p>Email: john.doe@email.com | LinkedIn: [LinkedIn](https://linkedin.com/in/johndoe)</p>
+    </header>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, JavaScript</li>
+            <li>Tools: Docker, AWS</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <p><strong>Software Engineer</strong> at ABC Company (2022-Present)</p>
+    </section>
+
+    <footer>
+        <p>Last updated: November 2024</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #333;
+}
